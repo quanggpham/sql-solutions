@@ -29,6 +29,10 @@ join (
 	on min_table.dept_no = de.dept_no
     and min_table.min_salary = s.salary
 where e.hire_date >= '1995-01-01'
+
+
+
+
 -- AI
 WITH TargetEmployees AS (
     -- 1. Lọc trước nhân viên thỏa mãn điều kiện năm để thu hẹp tập dữ liệu ngay từ đầu
